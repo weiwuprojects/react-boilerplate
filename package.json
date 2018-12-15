@@ -4,12 +4,15 @@
   "description": "boilerplate for future react projects",
   "main": "index.js",
   "scripts": {
-  	"build": "webpack",
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
     "webpack": "^4.27.1",
     "webpack-cli": "^3.1.2"
   }

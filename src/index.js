@@ -1,2 +1,3 @@
+import getGreeting from './greet'
 
-console.log('hello world')
+console.log(getGreeting('world'))
